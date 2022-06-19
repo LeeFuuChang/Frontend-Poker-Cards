@@ -1,0 +1,27 @@
+@import url("card.css");
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.df {display: flex}
+.aic {align-items: center}
+.jcc {justify-content: center}
+
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    background: #eeeeee;
+}
+
+
+.row {
+    width: max-content;
+    height: min-content;
+}
